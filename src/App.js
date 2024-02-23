@@ -21,7 +21,7 @@ function App() {
             <img
               className="icon"
               src="https://static-00.iconduck.com/assets.00/weather-clear-symbolic-icon-511x512-zfj6vb21.png"
-            />{" "}
+          alt="icon"  />{" "}
           </span>
         </div>
         <ul>
@@ -53,7 +53,7 @@ function App() {
                     <img
                       className="icon"
                       src="https://static-00.iconduck.com/assets.00/weather-clear-symbolic-icon-511x512-zfj6vb21.png"
-                    />
+                  alt="icon"  />
                     <canvas width="38" height="38"></canvas>
 
                     <div>15°</div>
@@ -85,13 +85,7 @@ function App() {
         </main>
         <footer>
           This project was coded by{" "}
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            vera vilas boas
-          </a>{" "}
+          
           and is{" "}
           <a
             href="https://github.com/veravilasboasrepository/reactapp"
@@ -100,14 +94,7 @@ function App() {
           >
             open-sourced on GitHub
           </a>{" "}
-          and{" "}
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            hosted on Netlify
-          </a>
+       
         </footer>
       </div>{" "}
     </div>
