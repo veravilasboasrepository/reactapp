@@ -1,8 +1,21 @@
-.App {
-  text-align: center;
-}
+
 .container {
-   margin-top: 100px;
+size: 200px;
+
+}
+.icon{
+width: 40px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin: 23px;
+  padding: 36px 60px;
+  background-color: rgb(234, 232, 232);
+  color: rgb(53, 52, 52);
+     margin-top: 100px;
     max-width: 700px;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -12,16 +25,55 @@
     padding-left: calc(var(--bs-gutter-x)*.5);
     padding-right: calc(var(--bs-gutter-x)*.5);
     width: 100%;
-
-
-
+ box-shadow: 5px 5px 5px rgb(189, 166, 188);
+border-radius: 40px;
+}
+.temperature{
+  font-size: 34px;
+}
+.unit{
+  font-size: 14px;
+}
+.input {
+  color: blue;
+}
+main {
+  padding: 8px 0;
 }
 
+button {
+  color: #be8ea3;
+  background-color: rgb(243, 184, 209);
+  padding: 16px 20px;
+  display: flexbox;
+  margin: 12px;
+  font-size: 12px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(170, 120, 167);
+}
+button:hover {
+  background-color: #ea62a0;
+  opacity: 0.9;
+  color: rgb(252, 252, 252);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
 
-.App footer {
-  font-size: 11px;
-  padding: 14px;
-  margin: 10px 16px;
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+input {
+  display: block;
+  font-size: 14px;
+  padding: 4px;
+  margin: auto;
+  size: 32px;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: 5px 5px 5px rgb(205, 164, 191);
 }
 
 

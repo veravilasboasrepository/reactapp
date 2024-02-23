@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import Navigation from "./Navigation";
+import Main from "./Main";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navigation />
+        <Main />
+      </div>
+    );
+  }
+}
