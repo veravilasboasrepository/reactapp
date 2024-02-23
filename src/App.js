@@ -34,9 +34,8 @@ function App() {
           <div className="row mt-3">
             <div className="col-6">
               <div className="d-flex">
-      
-                  <canvas width="38" height="38"></canvas>
-       
+                <canvas width="38" height="38"></canvas>
+
                 <ul>
                   <li>Temperature: 20°C</li>
                   <li>Description: zzzz</li>
@@ -50,36 +49,34 @@ function App() {
                   </div>
                   <div className="col-sm-2">
                     <div className="forecast-day">Sun</div>
-            
-    
-                      <img
-                        className="icon"
-                        src="https://static-00.iconduck.com/assets.00/weather-clear-symbolic-icon-511x512-zfj6vb21.png"
-                      />
-                      <canvas width="38" height="38"></canvas>
-           
+
+                    <img
+                      className="icon"
+                      src="https://static-00.iconduck.com/assets.00/weather-clear-symbolic-icon-511x512-zfj6vb21.png"
+                    />
+                    <canvas width="38" height="38"></canvas>
+
                     <div>15°</div>
                   </div>
                   <div className="col-sm-2">
                     <div>Mon</div>
-                
-                      <canvas width="38" height="38"></canvas>
 
-                    <div >12°</div>
+                    <canvas width="38" height="38"></canvas>
+
+                    <div>12°</div>
                   </div>
                   <div className="col-sm-2">
-                    <div >Tue</div>
+                    <div>Tue</div>
 
-                      <canvas width="38" height="38"></canvas>
-             
-                    <div >12°</div>
+                    <canvas width="38" height="38"></canvas>
+
+                    <div>12°</div>
                   </div>
 
                   <div className="col-6">
                     <div class="forecast-day">Wed</div>
 
-                      <canvas width="38" height="38"></canvas>
-              
+                    <canvas width="38" height="38"></canvas>
                   </div>
                 </div>
               </div>
@@ -89,7 +86,7 @@ function App() {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.delac.io/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -97,7 +94,7 @@ function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/wecodeschool/react-weather-app"
+            href="https://github.com/veravilasboasrepository/reactapp"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -105,7 +102,7 @@ function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://suspicious-beaver-111c4d.netlify.com/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
