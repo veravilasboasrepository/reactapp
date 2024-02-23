@@ -6,12 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        check more 
-        </p>
+        <p>check more in my github </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/veravilasboasrepository/reactapp"
           target="_blank"
           rel="noopener noreferrer"
         >
